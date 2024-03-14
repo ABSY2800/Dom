@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#cart {
+  width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 20px solid #d30909;
+  border-radius: 5px;
+  align-items: center;
+}
+
+#item-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  
+}
+
+ 
+#id{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#ball{
+  padding-left: 3%;
+  
+}
+
+button {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.like {
+  color: gray;
+}
+
+.liked {
+  color: red;
+}
